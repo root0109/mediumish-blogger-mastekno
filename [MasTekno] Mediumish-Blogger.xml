@@ -109,7 +109,7 @@
         ul,ol,li{display:none}
       ]]></b:skin>
     </b:if>
-<link href='https://cdn.statically.io/gh/mastekno-com/mediumish-blogger-mastekno/master/mediumish-green.css' rel='stylesheet'/>
+<link href='https://cdn.statically.io/gh/mastekno-com/mediumish-blogger-mastekno/master/mediumish-blue.css' rel='stylesheet'/>
     <style>
       html {
       -webkit-animation: fadein 1s;
@@ -217,13 +217,13 @@ head.insertBefore(script, head.firstChild);
         <div class='row justify-content-center align-items-center brandrow'>
           <div class='col-lg-4 col-md-4 hidden-xs-down customarea'>
 <!-- Sesuaikan Menu Profil -->
-            <a class='btn follow' href='https://www.blogger.com/follow.g?view=FOLLOW&amp;blogID=ID-BLOGMU' rel="nofollow" target='blank'><i class='fa fa-user'/> Follow</a>
-            <a href='#' target='_blank' rel="nofollow"> <i class='fa fa-facebook social'/></a>
-            <a href='#' target='_blank' rel="nofollow"> <i class='fa fa-instagram social'/></a>
+            <a class='btn follow' href='https://www.blogger.com/follow.g?view=FOLLOW&amp;blogID=ID-BLOGMU' rel='nofollow' target='blank'><i class='fa fa-user'/> Follow</a>
+            <a href='#' rel='nofollow' target='_blank'> <i class='fa fa-facebook social'/></a>
+            <a href='#' rel='nofollow' target='_blank'> <i class='fa fa-instagram social'/></a>
           </div>
           &lt;!--
           <b:section id='Header' showaddelement='no'>
-            <b:widget id='Header1' locked='true' title='Mediumish (Header)' type='Header' version='1'>
+            <b:widget id='Header1' locked='true' title='Learn INQuiZitively - Java (Header)' type='Header' version='1'>
               <b:widget-settings>
                 <b:widget-setting name='displayUrl'/>
                 <b:widget-setting name='displayHeight'>0</b:widget-setting>
@@ -282,7 +282,7 @@ head.insertBefore(script, head.firstChild);
             <div class='collapse navbar-collapse' id='bs4navbar'>
               <ul class='navbar-nav col-md-12 justify-content-center' id='menu-menu'>
 <!-- Sesuaikan Menu Navigasi Utama -->
-                <li class='menu-item nav-item'><span itemprop='name'><a class='nav-link' href='/' itemprop='url'>Beranda</a></span></li>
+                <li class='menu-item nav-item'><span itemprop='name'><a class='nav-link' href='/' itemprop='url'>Home</a></span></li>
                 <li class='menu-item nav-item'><span itemprop='name'><a class='nav-link' href='#' itemprop='url'>Menu</a></span></li>
                 <li class='menu-item nav-item dropdown'>
                   <a class='nav-link dropdown-toggle' href='#'>Menu</a>
@@ -314,7 +314,7 @@ head.insertBefore(script, head.firstChild);
         &lt;div class=&#39;section-title&#39;&gt; &lt;h2&gt; 
         &lt;span&gt;
         <b:if cond='data:view.isMultipleItems'>
-          Artikel Terbaru
+          Recent Articles
           <b:elseif cond='data:view.isPage'/>
           <data:view.title/>
         </b:if>
@@ -323,7 +323,7 @@ head.insertBefore(script, head.firstChild);
     </b:if>
     &lt;!--
     <b:section id='Blog' showaddelement='no'>
-      <b:widget id='Blog1' locked='true' title='Posting Blog' type='Blog' version='1'>
+      <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' version='1'>
         <b:widget-settings>
           <b:widget-setting name='showDateHeader'>true</b:widget-setting>
           <b:widget-setting name='commentLabel'>Comment</b:widget-setting>
@@ -773,12 +773,12 @@ head.insertBefore(script, head.firstChild);
     <div class='container'>
       <footer class='footer' itemprop='mainEntity' itemscope='itemscope' itemtype='https://schema.org/WPFooter'>
         <p class='pull-left'>
-			<a href='#' title='Tentang Kami'>Tentang Kami</a> &#8226; <a href='#' title='Menu 2'>Kontak</a> &#8226; <a href='#' title='Menu 3'>Disclaimer</a> &#8226; <a href='#' title='Menu 4'>Privacy Policy</a><br/>
-        &#169; Copyright 2019 
+			<a href='#' title='About Us'>About Us</a> &#8226; <a href='#' title='Contact'>Contact</a> &#8226; <a href='#' title='/p/disclaimers.html'>Disclaimer</a> &#8226; <a href='#' title='Privacy Policy'>Privacy Policy</a><br/>
+        &#169; Copyright 2020 
           <a class='notranslate' expr:href='data:blog.canonicalHomepageUrl' expr:title='data:blog.title'>
             <data:blog.title/>
           </a>.</p>
-	<!--DIHARAPKAN TIDAK MENGHAPUS CREDIT LINK-->
+	<!--EXPECTED NOT TO REMOVE CREDIT LINK-->
         <p class='pull-right'>
           Template By: <b:if cond='data:view.isHomepage'><a href='https://www.mastekno.com/' id='mastekno' rel='nofollow external' title='MasTekno.com'>MasTekno.com</a>.<b:else/>MasTekno.com.</b:if>
         </p>
@@ -803,7 +803,7 @@ head.insertBefore(script, head.firstChild);
  </b:if>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({
-          google_ad_client: &quot;ca-pub-ID-PUB-ANDA&quot;,
+          google_ad_client: &quot;ca-pub-2351894401870762&quot;,
           enable_page_level_ads: true
      });
 //<![CDATA[
@@ -811,7 +811,7 @@ head.insertBefore(script, head.firstChild);
       window.addEventListener("scroll", function(){
       if ((document.documentElement.scrollTop != 0 && loadSc === false) || (document.body.scrollTop != 0 && loadSc === false)) {
 
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'SESUAIKAN_TRACKING_ANALYTICS', 'auto');ga('send', 'pageview');
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-165837494-1', 'auto');ga('send', 'pageview');
 
 
 for (index = 0; index < scripts.length; ++index) {
@@ -846,14 +846,14 @@ bgDef[i].setAttribute('style',bgDef[i].getAttribute('data-style'));
       window.addEventListener("scroll", function(){
       if ((document.documentElement.scrollTop != 0 && fired === false) || (document.body.scrollTop != 0 && fired === false)) {
       
-      (function() { var ad = document.createElement('script'); ad.type = 'text/javascript'; ad.async = true; ad.src = 'https://ID-DISQUSMU.disqus.com/blogger_item.js'; var sc = document.getElementsByTagName('script')[0]; sc.parentNode.insertBefore(ad, sc); })();
+      (function() { var ad = document.createElement('script'); ad.type = 'text/javascript'; ad.async = true; ad.src = 'https://linqz.disqus.com/blogger_item.js'; var sc = document.getElementsByTagName('script')[0]; sc.parentNode.insertBefore(ad, sc); })();
       
       
           fired = true;
         }
       }, true);
       
-      function load_Comments(){var e=document.getElementById("disqusshow");e.style.display="none";!function(){var e=document.createElement("script");e.async=true,e.src="https://ID-DISQUSMU.disqus.com/embed.js",(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(e)}()};function insertAfter(addition, konten) {
+      function load_Comments(){var e=document.getElementById("disqusshow");e.style.display="none";!function(){var e=document.createElement("script");e.async=true,e.src="https://linqz.disqus.com/embed.js",(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(e)}()};function insertAfter(addition, konten) {
           var parent = konten.parentNode;
           if (parent.lastChild == konten) {
               parent.appendChild(addition);
@@ -896,4 +896,3 @@ $(".separator:first").css("display","none");
     </script>
     </b:if>
     &lt;!--</body>--&gt;&lt;/body&gt;
-</html>
