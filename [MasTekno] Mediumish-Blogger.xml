@@ -109,7 +109,7 @@
         ul,ol,li{display:none}
       ]]></b:skin>
     </b:if>
-<link href='https://cdn.statically.io/gh/mastekno-com/mediumish-blogger-mastekno/master/mediumish-blue.css' rel='stylesheet'/>
+<link href='https://cdn.statically.io/gh/mastekno-com/mediumish-blogger-mastekno/master/mediumish-green.css' rel='stylesheet'/>
     <style>
       html {
       -webkit-animation: fadein 1s;
@@ -216,10 +216,11 @@ head.insertBefore(script, head.firstChild);
       <div class='container'>
         <div class='row justify-content-center align-items-center brandrow'>
           <div class='col-lg-4 col-md-4 hidden-xs-down customarea'>
-<!-- Sesuaikan Menu Profil -->
-            <a class='btn follow' href='https://www.blogger.com/follow.g?view=FOLLOW&amp;blogID=ID-BLOGMU' rel='nofollow' target='blank'><i class='fa fa-user'/> Follow</a>
-            <a href='#' rel='nofollow' target='_blank'> <i class='fa fa-facebook social'/></a>
-            <a href='#' rel='nofollow' target='_blank'> <i class='fa fa-instagram social'/></a>
+<!-- Customize the Profile Menu-->
+            <a class='btn follow' href='https://www.blogger.com/follow.g?view=FOLLOW&amp;blogID=5931311485248377217' rel='nofollow' target='blank'><i class='fa fa-user'/> Follow</a>
+            <a href='#' rel='nofollow' target='_blank'> <i class='fa fa-linkedin social'/></a>
+            <a href='#' rel='nofollow' target='_blank'> <i class='fa fa-github social'/></a>
+			<a href='#' rel='nofollow' target='_blank'> <i class='fa fa-medium social'/></a>
           </div>
           &lt;!--
           <b:section id='Header' showaddelement='no'>
@@ -281,24 +282,25 @@ head.insertBefore(script, head.firstChild);
             <button aria-controls='bs4navbar' aria-expanded='false' aria-label='Toggle navigation' class='navbar-toggler navbar-toggler-right' data-target='#bs4navbar' data-toggle='collapse' type='button'> <span class='navbar-toggler-icon'/> </button> 
             <div class='collapse navbar-collapse' id='bs4navbar'>
               <ul class='navbar-nav col-md-12 justify-content-center' id='menu-menu'>
-<!-- Sesuaikan Menu Navigasi Utama -->
+<!-- Customize the Main Navigation Menu -->
                 <li class='menu-item nav-item'><span itemprop='name'><a class='nav-link' href='/' itemprop='url'>Home</a></span></li>
-                <li class='menu-item nav-item'><span itemprop='name'><a class='nav-link' href='#' itemprop='url'>Menu</a></span></li>
+                <li class='menu-item nav-item'><span itemprop='name'><a class='nav-link' href='/p/articles.html' itemprop='url'>Articles</a></span></li>
+				<li class='menu-item nav-item'><span itemprop='name'><a class='nav-link' href='/p/coding-interviews.html' itemprop='url'>Coding Interviews</a></span></li>
                 <li class='menu-item nav-item dropdown'>
-                  <a class='nav-link dropdown-toggle' href='#'>Menu</a>
-                  <div class='dropdown-menu'><span itemprop='name'><a class='dropdown-item' href='#' itemprop='url'>Sub Menu</a></span><span itemprop='name'><a class='dropdown-item' href='#' itemprop='url'>Sub Menu</a></span></div>
+                  <a class='nav-link dropdown-toggle' href='/p/system-design.html'>System Design</a>
+                  <div class='dropdown-menu'><span itemprop='name'><a class='dropdown-item' href='/p/url-shortner.html' itemprop='url'>URL Shortner</a></span></div>
                 </li>
                 <li class='menu-item nav-item dropdown'>
-                  <a class='nav-link dropdown-toggle' href='#'>Menu</a>
-                  <div class='dropdown-menu'><span itemprop='name'><a class='dropdown-item' href='#' itemprop='url'>Sub Menu</a></span><span itemprop='name'><a class='dropdown-item' href='#' itemprop='url'>Sub Menu</a></span></div>
+                  <a class='nav-link dropdown-toggle' href='#'>Tutorials</a>
+                  <div class='dropdown-menu'><span itemprop='name'><a class='dropdown-item' href='/p/java-tutorial.html' itemprop='url'>Java</a></span><span itemprop='name'><a class='dropdown-item' href='/p/apache-kafka.html' itemprop='url'>Apache Kafka</a></span></div>
                 </li>
                 <li class='menu-item nav-item dropdown'>
-                  <a class='nav-link dropdown-toggle' href='#'>Menu</a>
-                  <div class='dropdown-menu'><span itemprop='name'><a class='dropdown-item' href='#' itemprop='url'>Sub Menu</a></span><span itemprop='name'><a class='dropdown-item' href='#' itemprop='url'>Sub Menu</a></span></div>
+                  <a class='nav-link dropdown-toggle' href='#'>Tools</a>
+                  <div class='dropdown-menu'><span itemprop='name'><a class='dropdown-item' href='https://www.charactercountonline.com/' itemprop='url'>Character Count</a></span><span itemprop='name'><a class='dropdown-item' href='https://jsonlint.com/' itemprop='url'>Json Formatter</a></span><span itemprop='name'><a class='dropdown-item' href='https://www.urlencoder.io/' itemprop='url'>URL Encoder</a></span><span itemprop='name'><a class='dropdown-item' href='https://www.urldecoder.io/' itemprop='url'>URL Decoder</a></span><span itemprop='name'><a class='dropdown-item' href='https://www.base64encoder.io/' itemprop='url'>Base 64 Encoder</a></span><span itemprop='name'><a class='dropdown-item' href='https://www.base64decoder.io/' itemprop='url'>Base 64 Decoder</a></span><span itemprop='name'><a class='dropdown-item' href='https://www.asciitable.xyz/' itemprop='url'>ASCII Table</a></span></div>
                 </li>
                 <li class='menu-item nav-item dropdown'>
-                  <a class='nav-link dropdown-toggle' href='#'>Menu</a>
-                  <div class='dropdown-menu'><span itemprop='name'><a class='dropdown-item' href='#' itemprop='url'>Sub Menu</a></span><span itemprop='name'><a class='dropdown-item' href='#' itemprop='url'>Sub Menu</a></span></div>
+                  <a class='nav-link dropdown-toggle' href='#'>About Me</a>
+                  <div class='dropdown-menu'><span itemprop='name'><a class='dropdown-item' href='/p/contact-me.html' itemprop='url'>Contact Me</a></span><span itemprop='name'><a class='dropdown-item' href='https://drive.google.com/file/d/10BTXaYp29vrVTPkd2gXqpDB7yxwKtA3M/view?usp=sharing' itemprop='url'>Resume</a></span></div>
                 </li>
               </ul>
             </div>
@@ -773,7 +775,7 @@ head.insertBefore(script, head.firstChild);
     <div class='container'>
       <footer class='footer' itemprop='mainEntity' itemscope='itemscope' itemtype='https://schema.org/WPFooter'>
         <p class='pull-left'>
-			<a href='#' title='About Us'>About Us</a> &#8226; <a href='#' title='Contact'>Contact</a> &#8226; <a href='#' title='/p/disclaimers.html'>Disclaimer</a> &#8226; <a href='#' title='Privacy Policy'>Privacy Policy</a><br/>
+			<a href='#' title='About Us'>About Us</a> &#8226; <a href='#' title='Contact'>Contact</a> &#8226; <a href='/p/disclaimer.html' title='Disclaimer'>Disclaimer</a> &#8226; <a href='#' title='Privacy Policy'>Privacy Policy</a><br/>
         &#169; Copyright 2020 
           <a class='notranslate' expr:href='data:blog.canonicalHomepageUrl' expr:title='data:blog.title'>
             <data:blog.title/>
@@ -896,3 +898,4 @@ $(".separator:first").css("display","none");
     </script>
     </b:if>
     &lt;!--</body>--&gt;&lt;/body&gt;
+</html>
