@@ -55,9 +55,9 @@
       <meta expr:content='data:blog.metaDescription' property='og:description'/>
       <meta expr:content='data:blog.metaDescription' property='twitter:description'/>
       <b:else/>
-      <meta expr:content='data:blog.title + &quot; - Artikel Tentang &quot; + data:view.title' name='description'/>
-      <meta expr:content='data:blog.title + &quot; - Artikel Tentang &quot; + data:view.title' property='og:description'/>
-      <meta expr:content='data:blog.title + &quot; - Artikel Tentang &quot; + data:view.title' property='twitter:description'/>
+      <meta expr:content='data:blog.title + &quot; - Articles About &quot; + data:view.title' name='description'/>
+      <meta expr:content='data:blog.title + &quot; - Articles About &quot; + data:view.title' property='og:description'/>
+      <meta expr:content='data:blog.title + &quot; - Articles About &quot; + data:view.title' property='twitter:description'/>
     </b:if>
     <b:if cond='data:view.isMultipleItems'>
       <link href='ATUR_URL_LOGO_BLOG_ANDA' rel='image_src'/>
@@ -169,7 +169,7 @@ var async = async || [];
     var done = false;
     var script = document.createElement("script"),
     head = document.getElementsByTagName("head")[0] || document.documentElement;
-    script.src = 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js';
+    script.src = 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js';
     script.type = 'text/javascript'; 
     script.async = true;
     script.onload = script.onreadystatechange = function() {
@@ -224,11 +224,11 @@ head.insertBefore(script, head.firstChild);
           </div>
           &lt;!--
           <b:section id='Header' showaddelement='no'>
-            <b:widget id='Header1' locked='true' title='Learn INQuiZitively - Java (Header)' type='Header' version='1'>
+            <b:widget id='Header1' locked='true' title='Learn INQuiZitively (Header)' type='Header' version='1'>
               <b:widget-settings>
                 <b:widget-setting name='displayUrl'/>
                 <b:widget-setting name='displayHeight'>0</b:widget-setting>
-                <b:widget-setting name='sectionWidth'>-1</b:widget-setting>
+                <b:widget-setting name='sectionWidth'>1230</b:widget-setting>
                 <b:widget-setting name='useImage'>false</b:widget-setting>
                 <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
                 <b:widget-setting name='imagePlacement'>BEHIND</b:widget-setting>
@@ -285,21 +285,21 @@ head.insertBefore(script, head.firstChild);
 <!-- Customize the Main Navigation Menu -->
                 <li class='menu-item nav-item'><span itemprop='name'><a class='nav-link' href='/' itemprop='url'>Home</a></span></li>
                 <li class='menu-item nav-item'><span itemprop='name'><a class='nav-link' href='/p/articles.html' itemprop='url'>Articles</a></span></li>
-				<li class='menu-item nav-item'><span itemprop='name'><a class='nav-link' href='/p/coding-interviews.html' itemprop='url'>Coding Interviews</a></span></li>
+				<!--<li class='menu-item nav-item'><span itemprop='name'><a class='nav-link' href='/p/coding-interviews.html' itemprop='url'>Coding Interviews</a></span></li>-->
                 <li class='menu-item nav-item dropdown'>
-                  <span itemprop='name'><a class='nav-link dropdown-toggle' href='/p/system-design.html'>System Design</a></span>
+                  <a class='nav-link dropdown-toggle' href='/p/systemdesign.html'>System Design</a>
                   <div class='dropdown-menu'><span itemprop='name'><a class='dropdown-item' href='/p/url-shortner.html' itemprop='url'>URL Shortner</a></span></div>
                 </li>
                 <li class='menu-item nav-item dropdown'>
-                  <span itemprop='name'><a class='nav-link dropdown-toggle' href='/p/tutorials.html' itemprop='url'>Tutorials</a></span>
+                  <a class='nav-link dropdown-toggle' href='/p/tutorials.html' itemprop='url'>Tutorials</a>
                   <div class='dropdown-menu'><span itemprop='name'><a class='dropdown-item' href='/p/java-tutorial.html' itemprop='url'>Java</a></span><span itemprop='name'><a class='dropdown-item' href='/p/apache-kafka.html' itemprop='url'>Apache Kafka</a></span></div>
                 </li>
                 <li class='menu-item nav-item dropdown'>
-                  <span itemprop='name'><a class='nav-link dropdown-toggle' href='/p/tools.html' itemprop='url'>Tools</a></span>
+                  <a class='nav-link dropdown-toggle' href='/p/tools.html' itemprop='url'>My Tools</a>
                   <div class='dropdown-menu'><span itemprop='name'><a class='dropdown-item' href='https://www.charactercountonline.com/' itemprop='url'>Character Count</a></span><span itemprop='name'><a class='dropdown-item' href='https://jsonlint.com/' itemprop='url'>Json Formatter</a></span><span itemprop='name'><a class='dropdown-item' href='https://www.urlencoder.io/' itemprop='url'>URL Encoder</a></span><span itemprop='name'><a class='dropdown-item' href='https://www.urldecoder.io/' itemprop='url'>URL Decoder</a></span><span itemprop='name'><a class='dropdown-item' href='https://www.base64encoder.io/' itemprop='url'>Base 64 Encoder</a></span><span itemprop='name'><a class='dropdown-item' href='https://www.base64decoder.io/' itemprop='url'>Base 64 Decoder</a></span><span itemprop='name'><a class='dropdown-item' href='https://www.asciitable.xyz/' itemprop='url'>ASCII Table</a></span></div>
                 </li>
                 <li class='menu-item nav-item dropdown'>
-                  <a class='nav-link dropdown-toggle' href='/p/about-us.html'>About Us</a>
+                  <a class='nav-link dropdown-toggle' href='/p/about.html' itemprop='url'>About Us</a>
                   <div class='dropdown-menu'><span itemprop='name'><a class='dropdown-item' href='/p/contact-us.html' itemprop='url'>Contact Us</a></span><span itemprop='name'><a class='dropdown-item' href='https://drive.google.com/file/d/10BTXaYp29vrVTPkd2gXqpDB7yxwKtA3M/view?usp=sharing' itemprop='url'>Resume</a></span></div>
                 </li>
               </ul>
@@ -346,10 +346,10 @@ head.insertBefore(script, head.firstChild);
           <b:widget-setting name='showLabels'>true</b:widget-setting>
           <b:widget-setting name='showLocation'>false</b:widget-setting>
           <b:widget-setting name='showTimestamp'>true</b:widget-setting>
-          <b:widget-setting name='postsPerAd'>3</b:widget-setting>
+          <b:widget-setting name='postsPerAd'>1</b:widget-setting>
           <b:widget-setting name='showBacklinks'>false</b:widget-setting>
           <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
-          <b:widget-setting name='showInlineAds'>true</b:widget-setting>
+          <b:widget-setting name='showInlineAds'>false</b:widget-setting>
           <b:widget-setting name='showReactions'>false</b:widget-setting>
         </b:widget-settings>
         <b:includable id='main' var='this'>
@@ -443,10 +443,9 @@ head.insertBefore(script, head.firstChild);
               <div class='share hidden-xs-down'>
                 <p class='sharecolour'> Share </p>
                 <ul class='shareitnow'>
-                  <li> <a expr:href='&quot;https://api.whatsapp.com/send?text=&quot; + data:post.url + &quot;&quot;' expr:title='&quot;Whatsapp - &quot; + data:view.title' rel='nofollow noreferrer noopener external' data-action='share/whatsapp/share' onClick='javascript:window.open(this.href, &apos;&apos;, &apos;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600&apos;);return false;' target='_blank'> <i class='fa fa-whatsapp'/> </a> </li>
+                  <li> <a data-action='share/whatsapp/share' expr:href='&quot;https://api.whatsapp.com/send?text=&quot; + data:post.url + &quot;&quot;' expr:title='&quot;Whatsapp - &quot; + data:view.title' onClick='javascript:window.open(this.href, &apos;&apos;, &apos;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600&apos;);return false;' rel='nofollow noreferrer noopener external' target='_blank'> <i class='fa fa-whatsapp'/> </a> </li>
                   <li> <a expr:href='&quot;//www.blogger.com/share-post.g?blogID=&quot; + data:blog.blogId + &quot;&amp;postID=&quot; + data:post.id + &quot;&amp;target=facebook&quot;' expr:title='&quot;Facebook - &quot; + data:view.title' rel='nofollow noreferrer noopener external' target='_blank'><i class='fa fa-facebook'/> </a> </li>
-                  <li> <a expr:href='&quot;https://www.linkedin.com/shareArticle?mini=true + &amp;url=&quot; + data:post.url + &quot;&amp;t=&quot; + data:view.title + &quot;&quot;'  expr:title='&quot;LinkedIn - &quot; + data:view.title' rel='nofollow noreferrer noopener external' 
-				  onclick='javascript:window.open(this.href, &apos;&apos;, &apos;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600&apos;);return false;' target='_blank'> <i class='fa fa-linkedin'/> </a> </li>
+                  <li> <a expr:href='&quot;https://www.linkedin.com/shareArticle?mini=true + &amp;url=&quot; + data:post.url + &quot;&amp;t=&quot; + data:view.title + &quot;&quot;' expr:title='&quot;LinkedIn - &quot; + data:view.title' onclick='javascript:window.open(this.href, &apos;&apos;, &apos;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600&apos;);return false;' rel='nofollow noreferrer noopener external' target='_blank'> <i class='fa fa-linkedin'/> </a> </li>
                 </ul>
               </div>
             </div>
@@ -488,10 +487,9 @@ head.insertBefore(script, head.firstChild);
             <div class='mt-3 hidden-lg-up share-horizontal'>
             <p> Share </p>
             <ul class='shareitnow'>
-            <li> <a expr:href='&quot;https://api.whatsapp.com/send?text=&quot; + data:post.url + &quot;&quot;' expr:title='&quot;Whatsapp - &quot; + data:view.title' rel='nofollow noreferrer noopener external' data-action='share/whatsapp/share' onClick='javascript:window.open(this.href, &apos;&apos;, &apos;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600&apos;);return false;' target='_blank'> <i class='fa fa-whatsapp'/> </a> </li>
+            <li> <a data-action='share/whatsapp/share' expr:href='&quot;https://api.whatsapp.com/send?text=&quot; + data:post.url + &quot;&quot;' expr:title='&quot;Whatsapp - &quot; + data:view.title' onClick='javascript:window.open(this.href, &apos;&apos;, &apos;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600&apos;);return false;' rel='nofollow noreferrer noopener external' target='_blank'> <i class='fa fa-whatsapp'/> </a> </li>
             <li> <a expr:href='&quot;//www.blogger.com/share-post.g?blogID=&quot; + data:blog.blogId + &quot;&amp;postID=&quot; + data:post.id + &quot;&amp;target=facebook&quot;' expr:title='&quot;Facebook - &quot; + data:view.title' rel='nofollow noreferrer noopener external' target='_blank'><i class='fa fa-facebook'/> </a> </li>
-            <li> <a expr:href='&quot;https://www.linkedin.com/shareArticle?mini=true + &amp;url=&quot; + data:post.url + &quot;&amp;t=&quot; + data:view.title + &quot;&quot;'  expr:title='&quot;LinkedIn - &quot; + data:view.title' rel='nofollow noreferrer noopener external' 
-				  onclick='javascript:window.open(this.href, &apos;&apos;, &apos;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600&apos;);return false;' target='_blank'> <i class='fa fa-linkedin'/> </a> </li>
+            <li> <a expr:href='&quot;https://www.linkedin.com/shareArticle?mini=true + &amp;url=&quot; + data:post.url + &quot;&amp;t=&quot; + data:view.title + &quot;&quot;' expr:title='&quot;LinkedIn - &quot; + data:view.title' onclick='javascript:window.open(this.href, &apos;&apos;, &apos;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600&apos;);return false;' rel='nofollow noreferrer noopener external' target='_blank'> <i class='fa fa-linkedin'/> </a> </li>
             </ul>
             <div class='clearfix'/>
             </div>
@@ -635,7 +633,7 @@ head.insertBefore(script, head.firstChild);
       <aside class='site-sidebar' itemprop='mainEntity' itemscope='itemscope' itemtype='https://schema.org/WPSidebar'>
         &lt;!--
         <b:section id='sidebar-wrapper' showaddelement='yes'>
-          <b:widget cond='!data:view.isPage or !data:view.search.query' id='HTML12' locked='true' title='Iklan Bawah' type='HTML' version='1'>
+          <b:widget cond='!data:view.isPage or !data:view.search.query' id='HTML12' locked='true' title='Bottom Ad' type='HTML' version='1'>
             <b:widget-settings>
               <b:widget-setting name='content'/>
             </b:widget-settings>
@@ -722,7 +720,7 @@ head.insertBefore(script, head.firstChild);
       <div class='article-post'>
         &lt;!--
         <b:section class='col-md-12 mw-100' cond='data:view.isPost' id='AdsReady' showaddelement='no'>
-          <b:widget id='HTML0' locked='true' title='Iklan Atas Artikel' type='HTML' version='1'>
+          <b:widget id='HTML0' locked='true' title='Top Ad Articles' type='HTML' version='1'>
             <b:widget-settings>
               <b:widget-setting name='content'/>
             </b:widget-settings>
@@ -734,7 +732,7 @@ head.insertBefore(script, head.firstChild);
               &lt;!--
             </b:includable>
           </b:widget>
-          <b:widget id='HTML2' locked='true' title='Iklan Tengah Artikel 1' type='HTML' version='1'>
+          <b:widget id='HTML2' locked='true' title='Middle Ad Article 1' type='HTML' version='1'>
             <b:widget-settings>
               <b:widget-setting name='content'/>
             </b:widget-settings>
@@ -746,7 +744,7 @@ head.insertBefore(script, head.firstChild);
               &lt;!--
             </b:includable>
           </b:widget>
-          <b:widget id='HTML3' locked='true' title='Iklan Tengah Artikel 2' type='HTML' version='1'>
+          <b:widget id='HTML3' locked='true' title='Middle Ad Article 2' type='HTML' version='1'>
             <b:widget-settings>
               <b:widget-setting name='content'/>
             </b:widget-settings>
@@ -758,7 +756,7 @@ head.insertBefore(script, head.firstChild);
               &lt;!--
             </b:includable>
           </b:widget>
-          <b:widget id='HTML4' locked='true' title='Iklan Bawah Artikel' type='HTML' version='1'>
+          <b:widget id='HTML4' locked='true' title='Advertise Articles' type='HTML' version='1'>
             <b:widget-settings>
               <b:widget-setting name='content'/>
             </b:widget-settings>
@@ -777,14 +775,14 @@ head.insertBefore(script, head.firstChild);
     <div class='container'>
       <footer class='footer' itemprop='mainEntity' itemscope='itemscope' itemtype='https://schema.org/WPFooter'>
         <p class='pull-left'>
-			<a href='/p/about-us.html' title='About Us'>About Me</a> &#8226; <a href='/p/contact-us.html' title='Contact'>Contact</a> &#8226; <a href='/p/disclaimer.html' title='Disclaimer'>Disclaimer</a> &#8226; <a href='#' title='Privacy Policy'>Privacy Policy</a><br/>
+			<a href='#' title='About Us'>About Us</a> &#8226; <a href='/p/contact-us.html' title='Contact Us'>Contact Us</a> &#8226; <a href='/p/disclaimer.html' title='Disclaimer'>Disclaimer</a> &#8226; <a href='#' title='Privacy Policy'>Privacy Policy</a><br/>
         &#169; Copyright 2020 
           <a class='notranslate' expr:href='data:blog.canonicalHomepageUrl' expr:title='data:blog.title'>
             <data:blog.title/>
           </a></p>
 		  <!--EXPECTED NOT TO REMOVE CREDIT LINK-->
         <p class='pull-right'>
-          Designed By: <b:if cond='data:view.isHomepage'><a href='https://www.mastekno.com/' id='mastekno' rel='nofollow external' title='MasTekno.com'>MasTekno.com</a>.<b:else/>zaprit.com.</b:if>
+          Designed By: <b:if cond='data:view.isHomepage'><a href='https://www.mastekno.com/' id='mastekno' rel='nofollow external' title='MasTekno.com' style='display:none'>MasTekno.com</a><a href='https://www.zaprit.com/' rel='nofollow external' title='Zaprit.com'>zaprit.com</a><b:else/><a href='https://www.zaprit.com/' rel='nofollow external' title='Zaprit.com'>zaprit.com</a></b:if>.
         </p>
 	     <div class='clearfix'/>
         <a class='back-to-top' href='#top'> <i class='fa fa-angle-up'/> </a> 
