@@ -39,7 +39,7 @@
     <b:if cond='data:blog.metaDescription'>
       <meta expr:content='data:blog.metaDescription' name='description'/>
     </b:if>
-    <meta content='SESUAIKAN_META_GOOGLE' name='google-site-verification'/>
+    <meta content='9gveioYbZ5VKdnkk3Qa3rSh-d8qEaZIWjeB6djpiwSA' name='google-site-verification'/>
     <b:if cond='data:view.isSingleItem or data:view.isHomepage'>
       <meta content='index, follow' name='robots'/>
     </b:if>
